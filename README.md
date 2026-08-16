@@ -142,3 +142,16 @@ why convolution generalizes beyond images (Conv1D for time series/audio,
 graph neural networks for graph-structured data), while a dataset like
 heart disease, with no such neighborhood between features, is a case
 where imposing convolution could hurt by assuming a false locality.
+
+## SageMaker Evidence
+
+Training was executed inside a SageMaker Studio notebook (`cnn_fashion_mnist.ipynb`),
+running the same architecture and EDA/baseline/CNN pipeline as the local notebook —
+see screenshot below showing the notebook running with real output inside the
+SageMaker Studio domain.
+
+![img.png](Images/img.png)
+
+Endpoint deployment could not be completed. The AWS Academy account's SageMaker
+environment (tested in both Studio and a classic Notebook Instance) has no outbound
+network connectivity to AWS regional API endpoints
