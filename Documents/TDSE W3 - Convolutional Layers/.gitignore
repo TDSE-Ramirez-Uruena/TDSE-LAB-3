@@ -1,0 +1,6 @@
+# Virtual Env
+.venv/
+
+# Jetbrains IDE
+.idea/
+*.iml
